@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WELCOME TO MY TECHNOLOGY WEBPAGE</title>
+    <meta charset="UTF-8"/>
+    <link href="CSS/style.css" rel="stylesheet" /> 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://parsleyjs.org/dist/parsley.min.js"></script>   
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <script src="JS/menu.js"></script> 
+     <script src="JS/IP.js"></script>  
+</head>
+<body>
+    <div class="content" align=center>
+        <header>
+             <H1>WELCOME TO MY PERSONAL WEBSITE. ENJOY THE SURF</H1>
+        </header>
+        <div class="left">
+        <ul id="menu">
+          <li class="ui-state-disabled">START LIST</li>
+          <li><a href = "index.html">HOME</a></li>
+          <li><a href = "form.html">FORM</a></li>
+          <li><a href = "store.html">STORAGE</a></li>
+          <li><a href = "flickr.html">Flickr API</a></li>
+          <li><a href = "getip.html">GET IP API</a></li>
+          <li class="ui-state-disabled">END LIST</li>
+        </ul>
+        </div>
+        <div class="right">
+        <img src="image/banner_web_tech.jpg"> 
+            <h3 class="header1">Please fill in the form and then press on the submit button</h3>
+            <form id="postform">
+                <label for="name">Full Name:</label>
+                <br>
+			    <input class="area"  type="text" id="name" name="name" required data-parsley-type="name"/>
+                <br>
+                <br>
+                <label for="phone">Phone Number:</label>
+                <br>
+			    <input class="area" type="phone" id="phone" name='phone' required data-parsley-type="phone"/>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+			    <input class="area" type="email" id="email" name='email' required data-parsley-type="email"/>
+                <br>
+                <br>
+                <label for="Feedback">Feedback:</label>
+                <br>
+			    <textarea class="area"  id="Feedback" required data-parsley-type="text"></textarea>
+                <br>
+                <p> Select Your Hubbies: </p>
+                <label for="Running">Running</label>
+                <input type="checkbox" value="Running" id="Running">
+                
+                <label for="Piano">Play Piano</label>
+                <input type="checkbox" value="Piano" />
+                
+                <label for="Swimming">Swimming</label>
+                <input type="checkbox" value="Swimming" />
+                <br>
+                <br>
+                <p>Date of Birth (Select a Range):</p>
+                <select>
+                    <option>01/01/1985 - 12/31/1985</option>
+                    <option>01/01/1986 - 12/31/1986</option>
+                    <option>01/01/1987 - 12/31/1987</option>
+                    <option>01/01/1988 - 12/31/1988</option>
+                    <option>01/01/1989 - 12/31/1989</option>
+                    <option>01/01/1990 - 12/31/1990</option>
+                </select>
+                <br>
+                <br>
+                <input class="input"type="reset" value="RESET" />
+                <a href="index.html"><button type="button">HOME</button></a> 
+            </form>   
+                 <button>SUBMIT</button>   
+        </div>
+    </div>
+    <footer>
+        <p><strong>Best Viewed Through Internet Browser (Google Chromer Version 46.0.2490.80) With Screen Resolution (1366 X 768)</strong></p>
+    </footer>
+    <script src="JS/post.js"></script> 
+    <script src="JS/jquery.js"></script> 
+</body>
+</html>

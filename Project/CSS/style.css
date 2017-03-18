@@ -1,0 +1,119 @@
+	.content 
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+	body
+    {
+        background-color:#E1EDEB; 
+    }
+
+    header h1
+    {
+    	text-align: center;
+    	color: black;
+    }
+
+     header h3
+    {
+      text-align: center;
+      color: black;
+    }
+
+    .ui-menu 
+    { 
+    	width: 150px; 
+    }
+
+    .left
+    {
+        width:200px;
+        display: inline-block; 
+        font-family: Garamond, serif;
+        font-size: 16px;
+        color: grey; 
+        text-align: left;
+    }
+
+.right
+    { 
+        width:800px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+   footer p
+   {
+   	text-align: center;
+   	color: black;
+   }
+
+  .interaction
+  {
+	  	width: 100%;
+	    margin: 0 auto;
+	     margin-top: 40px;
+  }
+
+  
+img 
+{
+  width:800px;
+  height: 150px;
+}
+
+.full
+{
+  text-align: center;
+
+}
+
+button
+{
+  width: 150px;
+}
+
+.input
+{
+  width:150px;
+}
+.area
+{
+  width:300px;
+}
+
+footer
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+#body
+{
+  text-align: center;
+}
+
+span
+{
+  text-align: center;
+}
+
+.invalid
+{
+  border:2px solid red;
+}
+
+.valid
+{
+  border:2px solid green;
+}
+
+.image img
+{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+
+}
